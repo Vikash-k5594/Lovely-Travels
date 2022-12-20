@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:century Gothic;
+  }
+  .slogan{
+    font-family: 'Beth Ellen', cursive;
+    color:rgb(189, 171, 13);
+    font-size: 36px;
+  }
+  .author{
+    font-family: 'Nova Cut', cursive;
+    color: rgba(221, 197, 132, 0.533) ;
+   }
+
+  .contact-info{
+    padding-top:170px;
+  }
+
+body{
+    background:linear-gradient(40deg,#63be26, #1c70cf);
+    background-size: cover;
+    font-family:cavolini;
+    margin-top: 40px;
+  }
+  header{
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+  }
+  ul{
+    list-style-type: none;
+    float: right;
+    margin-top:15px;
+    text-align: center;
+  }
+  ul li{
+    display: inline-flex;
+  
+  }
+  ul li a{
+    text-decoration: none;
+    color:#FF69B4;
+    font-weight:bold;
+    padding: 5px 20px;
+    border: 1px solid 	transparent;
+    border-width: 3px;
+    background-clip:padding-box;
+    transition:0.6s ease;
+  }
+  
+  ul li a:hover{
+    background-color: #F5F5DC;
+    color: 	#8A2BE2;
+  }
+  .logo img{
+    float:left;
+    margin-left: -100px;
+    margin-top: -5px;
+    width:100px;
+    height:80px;
+  }
+  .main{
+    max-width: 1200px;
+    margin:auto;
+  }
+      
+  .title{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .title h1{
+    color:#E6E6FA;
+    font-size: 80px;
+    font-style: oblique;
+    font-family: cavolini;
+  }
+  .title h2{
+    color:#E6E6FA;
+    text-align:center;
+    font-size: 35px;
+    font-style: oblique;
+    font-family: chiller;
+  }
+  .button{
+    position: absolute;
+    top:62%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .btn{
+    border:1px solid 	#9932CC;
+    padding:10px 30px;
+    color:#FFE4E1;
+    text-decoration: none;
+    transition: 0.6s ease;
+  }
+  .btn:hover{
+    background-color:#98FB98;
+    color: #7B68EE;
+  }
+  .aimage1{
+    display: block;
+    margin-top: -3%;
+    margin-left: -12%;
+
+  }
+  .aimage2{
+    display: block;
+    margin-top: -13%;
+    margin-left: 5%;
+ 
+
+  }
+  .aimage3{
+    display: block;
+    margin-top: -9%;
+    margin-left: 20%;
+  }
+  

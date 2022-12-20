@@ -1,0 +1,74 @@
+body{
+  margin:0;
+  padding: 0;
+  background-image: url(../2.jpg);
+  font-family: cavolini;
+}
+.wrapper{
+  width: 500px;
+  height: 420px;
+  color: 	#F5DEB3;
+  top: 50%;
+  left:50%;
+  padding: 60px 30px;
+  position: absolute;
+  transform: translate(-50%,-60%);
+  box-sizing: border-box;
+  box-shadow: 8px 8px 50px 	#9400D3;
+}
+h1{
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+  color:#FF1493;
+  text-align: center;
+  margin-bottom: 8%;
+  font-family: "Baskerville Old Face";
+  font-style: italic;
+}
+
+.wrapper input{
+  width: 100%;
+  margin-bottom: 20px;
+}
+.wrapper a{
+  font-size: 16px;
+  text-decoration: none;
+  color: #F5DEB3;
+  opacity: 1;
+}
+.button{
+  position: absolute;
+  top:68%;
+  left: 50%;
+  transform: translate(-50%,-60%);
+}
+.btn{
+  border:1px solid 	#9932CC;
+  padding: 10px 30px;
+  color:#FFE4E1;
+  text-decoration: none;
+  transition: 0.6s ease;
+
+}
+.btn:hover{
+  background-color:#98FB98;
+  color: #7B68EE;
+}
+.bottom-text input{
+   width: 10%;
+   float: left;
+}
+.bottom-text a{
+  float: right;
+}
+#overlay-area{
+  position: absolute;
+  background-color: rgba(0,0,0,0.5);
+  z-index: -5;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+
+}
