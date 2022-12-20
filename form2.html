@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Lovely Tour and Travels </title>
+  <style type="text/css">
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+    }
+  body{
+    background:linear-gradient(60deg, #00C6A7, #1E4D92);
+    background-size: cover;
+    font-family:cavolini;
+    margin-top: 40px;
+  }
+  .regform{
+    width:500px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-right: 120px;
+    margin-top: -820px;
+    float: right;
+    border-radius: 20px 20px 0px 0px;
+  }
+  .regform h1{
+    color: 	#FF69B4;
+    text-align: center;
+    font-style: oblique;
+    margin-top: 10px;
+  }
+  .main
+  {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 750px;
+    margin-right: 20px;
+    float: right;
+    margin-top: -760px;
+}
+.leftside img{
+  margin-left: 20px;
+  margin-top: 100px;
+  width:600px;
+  height:750px;
+}
+ .form
+ {
+   padding: 0;
+ }
+ #Name{
+   width: 90%;
+   height: 80px;
+ }
+ .Name{
+   margin-left: 35px;
+   margin-top: 20px;
+   margin-bottom: 15px;
+   width:250px;
+   color: #ABEBC6;
+   font-size: 22px;
+   font-weight: 700;
+ }
+ .firstname{
+   position: relative;
+   left: 220px;
+   top: -37px;
+   line-height: 30px;
+   border-radius: 6px;
+   padding: 0 20px;
+   font-size: 16px;
+ }
+ .lastname{
+   position: relative;
+   left: 150px;
+   top: -37px;
+   line-height: 30px;
+   border-radius: 6px;
+   padding: 0 20px;
+   font-size: 16px;
+   outline: none;
+ }
+ .firstlabel{
+   position: relative;
+   color:#D2B4DE  ;
+   text-transform: capitalize;
+   font-size: 14px;
+   left:-20px;
+   top:-10px;
+ }
+ .lastlabel{
+   position: relative;
+   color:#D2B4DE ;
+   text-transform: capitalize;
+   font-size: 14px;
+   left:-90px;
+   top:-10px;
+ }
+ .PlaceName
+ {
+   position: relative;
+   left: 220px;
+   top: -40px;
+   width: 380px;
+   line-height: 30px;
+   border-radius: 6px;
+   padding: 0 20px;
+   font-size: 16px;
+   outline: none;
+ }
+ .email{
+   position: relative;
+   left: 220px;
+   top: -40px;
+   width: 320px;
+   line-height: 30px;
+   border-radius: 6px;
+   padding: 0 20px;
+   font-size: 16px;
+   outline: none;
+ }
+ .Code{
+   position: relative;
+   left: 200px;
+   top: -40px;
+   width: 20px;
+   line-height: 30px;
+   border-radius: 6px;
+   padding: 0 20px;
+   font-size: 16px;
+   outline: none;
+ }
+.number{
+  position: relative;
+  left: 150px;
+  top: -40px;
+  width: 100px;
+  line-height: 30px;
+  border-radius: 6px;
+  padding: 0 20px;
+  font-size: 16px;
+  outline: none;
+}
+.area-code{
+  position: relative;
+  color:#D2B4DE  ;
+  text-transform: capitalize;
+  font-size: 14px;
+  left:150px;
+  top:-76px;
+}
+.phone-number{
+  position: relative;
+  color:#D2B4DE ;
+  text-transform: capitalize;
+  font-size: 14px;
+  left:50px;
+  top:-76px;
+}
+.option{
+  position: relative;
+  left: 220px;
+  top: -37px;
+  width: 180px;
+  line-height: 30px;
+  border-radius: 6px;
+  padding: 0 20px;
+  font-size: 16px;
+  outline: none;
+  overflow: hidden;
+}
+.city{
+  position: relative;
+  left: 220px;
+  top: -42px;
+  line-height: 30px;
+  border-radius: 6px;
+  padding: 0 20px;
+  font-size: 16px;
+}
+.state{
+  position: relative;
+  left: 200px;
+  top: -42px;
+  line-height: 30px;
+  border-radius: 6px;
+  padding: 0 20px;
+  font-size: 16px;
+  outline: none;
+}
+.firstlabel1{
+  position: relative;
+  color:#D2B4DE  ;
+  text-transform: capitalize;
+  font-size: 14px;
+  left:-20px;
+  top:-10px;
+}
+.lastlabel1{
+  position: relative;
+  color:#D2B4DE ;
+  text-transform: capitalize;
+  font-size: 14px;
+  left:-40px;
+  top:-10px;
+}
+.radio{
+  display: inline-block;
+  padding-right: 70px;
+  font-size: 15px;
+  margin-left: 150px;
+  margin-top: -200px;
+  color: white;
+}
+.checkbox{
+  display: inline-block;
+  padding-right: 70px;
+  font-size: 15px;
+  margin-left: 50px;
+  margin-top: -215px;
+  color: white;
+}
+.password{
+  position: relative;
+  color:#D2B4DE  ;
+  text-transform: capitalize;
+  font-size: 14px;
+  left:220px;
+  top:-32px;
+}
+.description{
+  position: relative;
+  color:#D2B4DE;
+  text-transform: capitalize;
+  font-size: 14px;
+  left:30px;
+  top:-15px;
+}
+
+button{
+  background-color:#3BAF9E;
+  display: block;
+  margin: 20px 0px 0px 20px;
+  text-align: center;
+  border-radius: 12px;
+  border: 2px solid #366473;
+  padding: 14px 110px;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  transition: 0.25px;
+}
+button:hover{background-attachment: #5390F5};
+
+  </style>
+  <script type="text/javascript"> 
+   function validate() {
+
+    
+    
+    if( document.myform.last_name.value == "" ) {
+       alert( "Please provide your last name!" );
+       document.myform.last_name.focus() ;
+       return false;
+    }
+    if( document.myform.email.value == "" ) {
+       alert( "Please provide your Email!" );
+       document.myform.email.focus() ;
+       return false;
+    }
+    if( document.myform.PlaceName.value == "" ) {
+
+       alert( "Please provide place Name" );
+       document.myform.PlaceName.focus() ;
+       return false;
+    }
+    if( document.myform.Nationality.value == "-1" ) {
+       alert( "Please provide your Nationality!" );
+       return false;
+    }
+    return( true );
+ }</script>
+</head>
+
+<body>
+  <section>
+    <div class="leftside">
+      <img src="type.png";
+    </div>
+  </section>
+  <div class="regform"> <h1> Registration form </h1> </div>
+  <div class="main">
+    <form name="myform" onsubmit = return(validate());>
+      <div id="Name">
+          <h2 class="Name">Name </h2>
+          <input class="firstname" type="text" name="first_name">
+          <label class="firstlabel">first name</label>
+          <input class="lastname" type="text" name="last_name">
+          <label class="lastlabel">last name</label>
+        </div>
+        <h2 class="Name">Place Name</h2>
+        <input class="PlaceName" type="text" name="PlaceName">
+
+        <h2 class="Name">Email</h2>
+        <input class="email" type="text" name="email">
+
+        <h2 class="Name"> Phone </h2>
+        <input class="Code" type="text" name="area_code">
+        <label class="area-code">Area Code</label>
+        <input class="number" type="text" name="phone">
+        <label class="phone-number">Phone Number</label>
+
+
+        <h2 class="Name"> Nationality </h2>
+        <select class="option" name="Nationality">
+          <option value="-1" disabled="disabled" selected="selected">---choose option---</option>
+          <option value="1"> Indian </option>
+          <option value="2"> NRI </option>
+          <option value="3"> Foreigner </option>
+        </select>
+
+        <h2 class="Name"> Gender </h2>
+        <label class="radio">
+          <input type="radio" name="gender" value="male"> Male
+          <input type="radio" name="female" value="female"> Female
+        </label>
+
+        <h2 class="Name"> No of days Tour </h2>
+        <label class="checkbox">
+        <input type="checkbox" name="3 days" value="on" checked="checked"> 3 days
+        <input type="checkbox" name="4 days" value="on"> 4 days
+        <input type="checkbox" name="5 days" value="on"> 5 days
+      </label>
+
+        <h2 class="Name"> Location </h2>
+        <input class="city" type="rext" name="city">
+        <label class="firstlabel1">city</label>
+        <input class="state" type="text" name="state">
+        <label class="lastlabel1">state</label>
+
+        <h2 class="Name"> Password </h2>
+        <label class="password">
+        Password:<input type="password" name="password"/>
+        Renter password:<input type="password" name="password"/>
+      </label>
+
+        <h2 class="Name"> Describe Yourself </h2>
+        <textarea class="description" rows="5" cols="50" name="description"> Enter description here....</textarea><br> <br>
+
+        <button type="submit"> Submit </button>
+       <button type="reset"> Reset </button>
+      
+   
+</div>
+</body>
+</html>
